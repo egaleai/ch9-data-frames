@@ -2,14 +2,14 @@
 
 # Create a vector of the number of points the Seahawks scored in the first 4 games
 # of the season (google "Seahawks" for the scores!)
-
+seahawks <- c(9, 12, 27, 46)
 
 # Create a vector of the number of points the Seahwaks have allowed to be scored
 # against them in each of the first 4 games of the season
-
+other <- c(1, 2, 3, 4)
 
 # Combine your two vectors into a dataframe called `games`
-
+games <- data.frame(seahawks, other)
 
 # Create a new column "diff" that is the difference in points between the teams
 # Hint: recall the syntax for assigning new elements (which in this case will be
